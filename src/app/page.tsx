@@ -1,4 +1,12 @@
+import { Metadata } from "next";
 import Image from "next/image";
+export const metadata: Metadata = {
+  title: "Homepage",
+  description: "Homepage",
+  openGraph: {
+    images: ["/images/metadata-image.png"],
+  },
+};
 
 export default function Home() {
   return (
