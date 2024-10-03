@@ -2,9 +2,11 @@ import { Metadata } from "next";
 import Image from "next/image";
 export const metadata: Metadata = {
   title: "Homepage",
-  description: "Homepage",
+  description: "This is a homepage for metadata testing",
   openGraph: {
-    images: ["/images/metadata-image.png"],
+    images: [
+      "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png",
+    ],
   },
 };
 
