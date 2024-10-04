@@ -3,11 +3,13 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Homepage",
   description: "This is a homepage for metadata testing",
-  openGraph: {
-    images: [
-      "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png",
-    ],
-  },
+  // openGraph: {
+  //   images: [
+  //     {
+  //       url: "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png",
+  //     },
+  //   ],
+  // },
 };
 
 export default function Home() {
